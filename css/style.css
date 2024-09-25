@@ -62,7 +62,7 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   background-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 7%);
 }
@@ -74,6 +74,16 @@ table {
 .nav .contact a .social {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 10vh;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 7%);
 }
 
 /*# sourceMappingURL=style.css.map */
