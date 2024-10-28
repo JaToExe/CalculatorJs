@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Nęcka</title>
+    <title>kalkulator</title>
+
+    <script src="./script/script.js" defer></script>
+
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="nav">
-        <h1>Daniel Nęcka</h1>
-
-        <div class="contact">
-            <a href="https://www.facebook.com/daniel.necka.5/">
-                <img class="social" src="./assets/facebook.png" alt="facebook">
-            </a>
-
-            <a href="https://www.instagram.com/t4k_po_prostu/">
-                <img class="social" src="./assets/instagram.png" alt="instagram">
-            </a>
+    <div class="calculator">
+        <div class="container1">
+            <div class="result">0000000</div>
         </div>
-    </nav>
-
-    <main class="main">
-        <section class="aboutme"></section>
-
-        <section class="project"></section>
-
-        <section class="school"></section>
-    </main>
+        <div class="container2">
+            <div class="row">
+                <div id="ereseAll" class="button">AC</div>
+                <div id="change" class="button">+-</div>
+                <div id="erese" class="button">c</div>
+                <div id="operator" class="button">/</div>
+            </div>
+            <div class="row">
+                <div id="number" class="button">7</div>
+                <div id="number" class="button">8</div>
+                <div id="number" class="button">9</div>
+                <div id="operator" class="button">*</div>
+            </div>
+            <div class="row">
+                <div id="number" class="button">4</div>
+                <div id="number" class="button">5</div>
+                <div id="number" class="button">6</div>
+                <div id="operator" class="button">-</div>
+            </div>
+            <div class="row">
+                <div id="number" class="button">1</div>
+                <div id="number" class="button">2</div>
+                <div id="number" class="button">3</div>
+                <div id="operator" class="button">+</div>
+            </div>
+            <div class="row">
+                <div id="dot" class="button">,</div>
+                <div id="number" class="button">0</div>
+                <div id="equls" class="button">=</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
